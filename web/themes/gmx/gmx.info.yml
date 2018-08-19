@@ -1,0 +1,31 @@
+name: Drupal Eight GMX Theme
+type: theme
+description: 'GMX Drupal 8 Responsive Theme. Developed & Designed by https://gmx.cl'
+package: core
+version: '8.x-1.0'
+core: '8.x'
+
+#Libraries
+libraries:
+  - gmx/bootstrap
+  - gmx/global-components
+
+#Regions
+regions:
+  header: 'Header'
+  menu: 'Menu'
+  mensajes: 'Mensajes'
+  highlighted: 'Highlighted'
+  slider: 'Slider'
+  switcher: 'Switcher'
+  submenu: 'Submenu'
+  content: 'Content'
+  contentright: 'Content right'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  footera: 'Footer A'
+  footerb: 'Footer b'
+  panel: 'Panel'
+  panela: 'Panel A'
+  panelb: 'Panel B'
+  auto_hidden_block: 'Auto hidden blocks'

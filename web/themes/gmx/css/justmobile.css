@@ -1,0 +1,131 @@
+@media only screen and (max-width: 769px) {
+    
+    .menu {
+        text-align: left;
+    }
+
+    ul.social {
+        float: right;
+        margin: 0 0 0 35px;
+        padding: 3px 0 0 0;
+      }
+
+    .language-switcher-language-url ul li {
+        display: inline;
+        font-size: 0px;
+        padding: 5px 10px;
+      }
+   /* Footer related stuff */ 
+    .footer  {
+        text-align: center;
+      }
+      
+      .social-footer {
+        text-align: center;
+      }
+
+/* Slider: Puntos de la navegación 
+También presente en custom-styles.css */
+
+    .slick-dots li button::before {
+        font-size: 6px;
+      }
+/* Slider: Puntos de la navegación 
+También presente en custom-styles.css */
+
+
+.submenu {
+    display: none;
+}
+
+.language-switcher-language-url {
+    float: right;
+    padding-top: 35px;
+}
+
+.responsive-menu-toggle-icon span.label {
+  display: none;
+}
+
+.responsive-menu-toggle-icon:after, .responsive-menu-toggle-icon span.icon {
+  display: none;
+}
+
+.region-menu {
+    color: #000;
+}
+
+.region-menu a {
+    top: 10px;
+}
+
+.region-menu a:hover {
+text-decoration: none;
+}
+
+.region-menu a.is-active {
+    text-decoration: none;
+}
+
+.responsive-menu-toggle-icon {
+    position: relative;
+    padding-left: 1.25em;
+}
+
+.responsive-menu-toggle-icon:before {
+    content: "";
+    position: absolute;
+    top: 0.5em;
+    width: 1em;
+    height: 0.15em;
+    background: white;
+    box-shadow: 
+      0 0.25em 0 0 white,
+      0 0.5em 0 0 white;
+}
+
+    h1 {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0px;
+      }
+
+      .slide__data {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        text-align: center;
+        margin: 40px 0;
+        color: #fff;
+      }
+
+      .slide__title {
+        font-size: 20px;
+      }
+      .slide__data p {
+        font-size: 15px;
+      }
+  
+    .region-header .brand img {
+        width: 250px;
+        padding: 15px 0 15px 0;
+    }
+
+
+    nav#block-navegacionprincipal {
+        display: none;
+    }
+
+#off-canvas ul {
+    background: #333;
+}
+
+#off-canvas a:hover {
+    background: #333;
+    color: #AEAC16;;
+}
+
+
+}
